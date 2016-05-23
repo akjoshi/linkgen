@@ -1,0 +1,31 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix : # .
+:LinkGen 
+ rdf:type void:Dataset;
+ dcterms:title "Synthetic Linked Data";
+ dcterms:description "Synthetic Linked Data Generated Using LinkGen";
+ dcterms:modified "2016-05-22"^^xsd:date;
+ dcterms:contributor ":AmitJoshi";
+ dcterms:contributor ":WrightState";
+ void:feature <http://www.w3.org/ns/formats/N-Triples>;
+ void:properties 2891 ;
+ void:classes 147 ;
+ void:triples 19906 ;
+ void:distinctSubjects 2588 ;
+:AmitJoshi
+ rdf:type foaf:Person;
+ rdfs:label "Amit Joshi";
+ foaf:mbox <mailto:joshi.35@wright.edu>;
+:WrightState
+ rdf:type foaf:Organization;
+ rdfs:label "Wright State University";
+ foaf:homepage <http://www.wright.edu/>;
+ .
