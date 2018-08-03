@@ -1,7 +1,6 @@
 # linkgen
-Synthetic Linked Data Generator
-
-(Code has been migrated from Bitbucket to Github)
+Synthetic Linked Data Generator. 
+(or RDF Generator.  NT Generator. Quad Generator. RDF test data generation based on Ontology)
 
 ## Please use following citation if you use this tool:
 * Joshi, A.K., Hitzler, P., Dong, G.: Multi-purpose Synthetic Linked Data Generator
